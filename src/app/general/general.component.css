@@ -1,0 +1,64 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+
+  .contenedor {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  
+  h1 {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+
+  p, ul {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666; 
+    margin-top: 20px;
+    list-style:none;
+  }
+  
+  .btn-iniciar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  .btn-iniciar:hover {
+    background-color: #0056b3;
+  }
+
+  .play-button {
+    background-color: #0026ff; /* Blue background color */
+    color: white;
+    padding: 15px 25px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    font-size: 20px;
+    cursor: pointer;
+    position: relative; /* For positioning the lightning bolt icon */
+    cursor: pointer;
+  }
