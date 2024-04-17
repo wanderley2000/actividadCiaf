@@ -4,13 +4,10 @@
     <img
       src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-face-of-cartoon-afro-vector-png-image_11085301.png"
     />
-    <p>
-      ¿Crees que las personas de bajos recursos enfrentan mayores desafíos que
-      pueden contribuir a un mayor riesgo de cometer delitos?
-    </p>
+    <p class="question">{{ question }}</p>
     <div class="contenedor-botones">
-      <button class="boton1">De acuerdo</button>
-      <button class="boton2">En desacuerdo</button>
+      <button class="boton1" (click)="deAcuerdo()">De acuerdo</button>
+      <button class="boton2" (click)="enDesacuerdo()">En desacuerdo</button>
     </div>
   </div>
 </body>
