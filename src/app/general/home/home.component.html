@@ -2,12 +2,16 @@
 <body>
   <div class="tarjeta">
     <img
-      src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-question-mark-icon-png-image_9025635.png"
+      src="https://lasninaspueden.cl/wp-content/uploads/2021/06/Untitled-2.gif"
     />
-    <p class="question">{{ question }}</p>
+    <p class="question">{{ aleatorias }}</p>
     <div class="contenedor-botones">
-      <button class="boton1" (click)="deAcuerdo()">De acuerdo</button>
-      <button class="boton2" (click)="enDesacuerdo()">En desacuerdo</button>
+      <button class="boton1" (click)="siRespuesta()">Si</button>
+      <button class="boton2" (click)="noRespuesta()">No</button>
     </div>
+  </div>
+  <br>
+  <div class="boton3">
+    <button class="boton3" (click)="terminar()">Finalizar</button>
   </div>
 </body>
